@@ -1,5 +1,13 @@
-# 16-Bit-CPU
-Design of a 16-Bit CPU using VHDL  
+# 16-Bit-CPU  
+Design of a 16-Bit CPU using VHDL
+
+----
+# Requirements
+<img src="Images/BlockDiagram.png" width="600" >  
+<img src="Images/ALUopcode.PNG" width="600" >  
+
+---
+## Approach
 
 First, the various components of the CPU were programmed. Next, the control unit was designed using the port mapping techniques. Finally,
 the CPU was put together at the last stage. The programming was done in VHDL. Testbenches were written for individual components at each 
@@ -19,6 +27,7 @@ The components used were:
 8. CPU
 
 ----
+## Code of designs
 
 ## ALU
 The ALU was required to perform arithmetic, logical or shift operation based on the opcode recieved. Individual units were first designed 
