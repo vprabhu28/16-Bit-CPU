@@ -890,6 +890,6 @@ begin
 end cpu1;
 ```
 
-***I have added the testbench programs and some simulation results for reference. The testbenches are names as tb_xxx.vhdl ***
+**I have added the testbench programs and some simulation results for reference. The testbenches are names as tb_xxx.vhdl **
 
 
